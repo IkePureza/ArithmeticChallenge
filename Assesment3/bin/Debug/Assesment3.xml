@@ -1,0 +1,596 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Assesment3</name>
+    </assembly>
+    <members>
+        <member name="T:Assesment3.BinaryNode">
+             <summary>   A binary node. </summary>
+            
+             <remarks>   Pureza, 9/16/2018. </remarks>
+        </member>
+        <member name="F:Assesment3.BinaryNode.equation">
+            <summary>   The equation. </summary>
+        </member>
+        <member name="F:Assesment3.BinaryNode.left">
+            <summary>   The left. </summary>
+        </member>
+        <member name="F:Assesment3.BinaryNode.right">
+            <summary>   The right. </summary>
+        </member>
+        <member name="M:Assesment3.BinaryNode.#ctor(Assesment3.Question)">
+             <summary>   Constructor. </summary>
+            
+             <remarks>   Pureza, 9/16/2018. </remarks>
+            
+             <param name="val">  The value. </param>
+        </member>
+        <member name="M:Assesment3.BinaryNode.NodeToString">
+             <summary>   Node to string. </summary>
+            
+             <remarks>   Pureza, 9/16/2018. </remarks>
+            
+             <returns>   A string. </returns>
+        </member>
+        <member name="T:Assesment3.BinaryTree">
+             <summary>   A binary tree. </summary>
+            
+             <remarks>   Pureza, 9/16/2018. </remarks>
+        </member>
+        <member name="F:Assesment3.BinaryTree.top">
+            <summary>   The top. </summary>
+        </member>
+        <member name="F:Assesment3.BinaryTree.printStr">
+            <summary>   The print string. </summary>
+        </member>
+        <member name="M:Assesment3.BinaryTree.printPreOrder(Assesment3.BinaryTree)">
+             <summary>   Print pre order. </summary>
+            
+             <remarks>   Pureza, 9/16/2018. </remarks>
+            
+             <param name="tree"> The tree. </param>
+            
+             <returns>   A string. </returns>
+        </member>
+        <member name="M:Assesment3.BinaryTree.PreOrder(Assesment3.BinaryNode)">
+             <summary>   Pre order. </summary>
+            
+             <remarks>   Pureza, 9/16/2018. </remarks>
+            
+             <param name="Root"> The root. </param>
+        </member>
+        <member name="M:Assesment3.BinaryTree.printInOrder(Assesment3.BinaryTree)">
+             <summary>   Print in order. </summary>
+            
+             <remarks>   Pureza, 9/16/2018. </remarks>
+            
+             <param name="tree"> The tree. </param>
+            
+             <returns>   A string. </returns>
+        </member>
+        <member name="M:Assesment3.BinaryTree.InOrder(Assesment3.BinaryNode)">
+             <summary>   In order. </summary>
+            
+             <remarks>   Pureza, 9/16/2018. </remarks>
+            
+             <param name="Root"> The root. </param>
+        </member>
+        <member name="M:Assesment3.BinaryTree.printPostOrder(Assesment3.BinaryTree)">
+             <summary>   Print post order. </summary>
+            
+             <remarks>   Pureza, 9/16/2018. </remarks>
+            
+             <param name="tree"> The tree. </param>
+            
+             <returns>   A string. </returns>
+        </member>
+        <member name="M:Assesment3.BinaryTree.PostOrder(Assesment3.BinaryNode)">
+             <summary>   Posts an order. </summary>
+            
+             <remarks>   Pureza, 9/16/2018. </remarks>
+            
+             <param name="Root"> The root. </param>
+        </member>
+        <member name="M:Assesment3.BinaryTree.#ctor(Assesment3.Question)">
+             <summary>   Constructor. </summary>
+            
+             <remarks>   Pureza, 9/16/2018. </remarks>
+            
+             <param name="answerVal">    The answer value. </param>
+        </member>
+        <member name="M:Assesment3.BinaryTree.#ctor">
+             <summary>   Default constructor. </summary>
+            
+             <remarks>   Pureza, 9/16/2018. </remarks>
+        </member>
+        <member name="M:Assesment3.BinaryTree.Add(Assesment3.Question)">
+             <summary>   Adds quest. </summary>
+            
+             <remarks>   Pureza, 9/16/2018. </remarks>
+            
+             <param name="quest">    The Question to add. </param>
+        </member>
+        <member name="T:Assesment3.Form1">
+             <summary>   A form 1. </summary>
+            
+             <remarks>   Pureza, 9/16/2018. </remarks>
+        </member>
+        <member name="T:Assesment3.Form1.SetTextCallback">
+             <summary>   Callback, called when the set text. </summary>
+            
+             <remarks>   Pureza, 9/16/2018. </remarks>
+            
+             <param name="text"> The text. </param>
+        </member>
+        <member name="F:Assesment3.Form1.listener">
+            <summary>   The listener. </summary>
+        </member>
+        <member name="F:Assesment3.Form1.client">
+            <summary>   The client. </summary>
+        </member>
+        <member name="F:Assesment3.Form1.ns">
+            <summary>   The ns. </summary>
+        </member>
+        <member name="F:Assesment3.Form1.t">
+            <summary>   A Thread to process. </summary>
+        </member>
+        <member name="F:Assesment3.Form1.listOfNodes">
+            <summary>   The list of nodes. </summary>
+        </member>
+        <member name="F:Assesment3.Form1.myTree">
+            <summary>   my tree. </summary>
+        </member>
+        <member name="F:Assesment3.Form1.equation">
+            <summary>   The equation. </summary>
+        </member>
+        <member name="M:Assesment3.Form1.#ctor">
+             <summary>   Default constructor. </summary>
+            
+             <remarks>   Pureza, 9/16/2018. </remarks>
+        </member>
+        <member name="M:Assesment3.Form1.textChanged(System.Object,System.EventArgs)">
+             <summary>   Text changed. </summary>
+            
+             <remarks>   Pureza, 9/16/2018. </remarks>
+            
+             <param name="sender">   Source of the event. </param>
+             <param name="e">        Event information. </param>
+        </member>
+        <member name="M:Assesment3.Form1.autoAnswer">
+             <summary>   Automatic answer. </summary>
+            
+             <remarks>   Pureza, 9/16/2018. </remarks>
+        </member>
+        <member name="M:Assesment3.Form1.saveEquation">
+             <summary>   Saves the equation. </summary>
+            
+             <remarks>   Pureza, 9/16/2018. </remarks>
+        </member>
+        <member name="M:Assesment3.Form1.btnSend_Click(System.Object,System.EventArgs)">
+             <summary>   Event handler. Called by btnSend for click events. </summary>
+            
+             <remarks>   Pureza, 9/16/2018. </remarks>
+            
+             <param name="sender">   Source of the event. </param>
+             <param name="e">        Event information. </param>
+        </member>
+        <member name="M:Assesment3.Form1.DoWork">
+             <summary>   Executes the work operation. </summary>
+            
+             <remarks>   Pureza, 9/16/2018. </remarks>
+        </member>
+        <member name="M:Assesment3.Form1.SetText(System.String)">
+             <summary>   Sets a text. </summary>
+            
+             <remarks>   Pureza, 9/16/2018. </remarks>
+            
+             <param name="text"> The text. </param>
+        </member>
+        <member name="M:Assesment3.Form1.binaryTree">
+             <summary>   Binary tree. </summary>
+            
+             <remarks>   Pureza, 9/16/2018. </remarks>
+        </member>
+        <member name="M:Assesment3.Form1.clearEquation">
+             <summary>   Clears the equation. </summary>
+            
+             <remarks>   Pureza, 9/16/2018. </remarks>
+        </member>
+        <member name="M:Assesment3.Form1.buttonSearch_Click(System.Object,System.EventArgs)">
+             <summary>   Event handler. Called by buttonSearch for click events. </summary>
+            
+             <remarks>   Pureza, 9/16/2018. </remarks>
+            
+             <param name="sender">   Source of the event. </param>
+             <param name="e">        Event information. </param>
+        </member>
+        <member name="M:Assesment3.Form1.dataGridQuestions_SelectionChanged(System.Object,System.EventArgs)">
+             <summary>
+             Event handler. Called by dataGridQuestions for selection changed events.
+             </summary>
+            
+             <remarks>   Pureza, 9/16/2018. </remarks>
+            
+             <param name="sender">   Source of the event. </param>
+             <param name="e">        Event information. </param>
+        </member>
+        <member name="M:Assesment3.Form1.button1_Click(System.Object,System.EventArgs)">
+             <summary>   Event handler. Called by button1 for click events. </summary>
+            
+             <remarks>   Pureza, 9/16/2018. </remarks>
+            
+             <param name="sender">   Source of the event. </param>
+             <param name="e">        Event information. </param>
+        </member>
+        <member name="M:Assesment3.Form1.buttonSort2_Click(System.Object,System.EventArgs)">
+             <summary>   Event handler. Called by buttonSort2 for click events. </summary>
+            
+             <remarks>   Pureza, 9/16/2018. </remarks>
+            
+             <param name="sender">   Source of the event. </param>
+             <param name="e">        Event information. </param>
+        </member>
+        <member name="M:Assesment3.Form1.btnSort3_Click(System.Object,System.EventArgs)">
+             <summary>   Event handler. Called by btnSort3 for click events. </summary>
+            
+             <remarks>   Pureza, 9/16/2018. </remarks>
+            
+             <param name="sender">   Source of the event. </param>
+             <param name="e">        Event information. </param>
+        </member>
+        <member name="M:Assesment3.Form1.btnMinimize_Click(System.Object,System.EventArgs)">
+             <summary>   Event handler. Called by btnMinimize for click events. </summary>
+            
+             <remarks>   Pureza, 9/16/2018. </remarks>
+            
+             <param name="sender">   Source of the event. </param>
+             <param name="e">        Event information. </param>
+        </member>
+        <member name="M:Assesment3.Form1.btnExit_Click(System.Object,System.EventArgs)">
+             <summary>   Event handler. Called by btnExit for click events. </summary>
+            
+             <remarks>   Pureza, 9/16/2018. </remarks>
+            
+             <param name="sender">   Source of the event. </param>
+             <param name="e">        Event information. </param>
+        </member>
+        <member name="F:Assesment3.Form1.TogMove">
+            <summary>   The tog move. </summary>
+        </member>
+        <member name="F:Assesment3.Form1.MValX">
+            <summary>   The value x coordinate. </summary>
+        </member>
+        <member name="F:Assesment3.Form1.MValY">
+            <summary>   The value y coordinate. </summary>
+        </member>
+        <member name="M:Assesment3.Form1.panelTop_MouseDown(System.Object,System.Windows.Forms.MouseEventArgs)">
+             <summary>   Event handler. Called by panelTop for mouse down events. </summary>
+            
+             <remarks>   Pureza, 9/16/2018. </remarks>
+            
+             <param name="sender">   Source of the event. </param>
+             <param name="e">        Mouse event information. </param>
+        </member>
+        <member name="M:Assesment3.Form1.panelTop_MouseUp(System.Object,System.Windows.Forms.MouseEventArgs)">
+             <summary>   Event handler. Called by panelTop for mouse up events. </summary>
+            
+             <remarks>   Pureza, 9/16/2018. </remarks>
+            
+             <param name="sender">   Source of the event. </param>
+             <param name="e">        Mouse event information. </param>
+        </member>
+        <member name="M:Assesment3.Form1.panelTop_MouseMove(System.Object,System.Windows.Forms.MouseEventArgs)">
+             <summary>   Event handler. Called by panelTop for mouse move events. </summary>
+            
+             <remarks>   Pureza, 9/16/2018. </remarks>
+            
+             <param name="sender">   Source of the event. </param>
+             <param name="e">        Mouse event information. </param>
+        </member>
+        <member name="M:Assesment3.Form1.Form1_Load(System.Object,System.EventArgs)">
+             <summary>   Event handler. Called by Form1 for load events. </summary>
+            
+             <remarks>   Pureza, 9/16/2018. </remarks>
+            
+             <param name="sender">   Source of the event. </param>
+             <param name="e">        Event information. </param>
+        </member>
+        <member name="M:Assesment3.Form1.btnDisplayPre_Click(System.Object,System.EventArgs)">
+             <summary>   Event handler. Called by btnDisplayPre for click events. </summary>
+            
+             <remarks>   Pureza, 9/16/2018. </remarks>
+            
+             <param name="sender">   Source of the event. </param>
+             <param name="e">        Event information. </param>
+        </member>
+        <member name="M:Assesment3.Form1.btnSavePre_Click(System.Object,System.EventArgs)">
+             <summary>   Event handler. Called by btnSavePre for click events. </summary>
+            
+             <remarks>   Pureza, 9/16/2018. </remarks>
+            
+             <param name="sender">   Source of the event. </param>
+             <param name="e">        Event information. </param>
+        </member>
+        <member name="M:Assesment3.Form1.btnDisplayIn_Click(System.Object,System.EventArgs)">
+             <summary>   Event handler. Called by btnDisplayIn for click events. </summary>
+            
+             <remarks>   Pureza, 9/16/2018. </remarks>
+            
+             <param name="sender">   Source of the event. </param>
+             <param name="e">        Event information. </param>
+        </member>
+        <member name="M:Assesment3.Form1.btnSaveIn_Click(System.Object,System.EventArgs)">
+             <summary>   Event handler. Called by btnSaveIn for click events. </summary>
+            
+             <remarks>   Pureza, 9/16/2018. </remarks>
+            
+             <param name="sender">   Source of the event. </param>
+             <param name="e">        Event information. </param>
+        </member>
+        <member name="M:Assesment3.Form1.btnDisplayPost_Click(System.Object,System.EventArgs)">
+             <summary>   Event handler. Called by btnDisplayPost for click events. </summary>
+            
+             <remarks>   Pureza, 9/16/2018. </remarks>
+            
+             <param name="sender">   Source of the event. </param>
+             <param name="e">        Event information. </param>
+        </member>
+        <member name="M:Assesment3.Form1.btnSavePost_Click(System.Object,System.EventArgs)">
+             <summary>   Event handler. Called by btnSavePost for click events. </summary>
+            
+             <remarks>   Pureza, 9/16/2018. </remarks>
+            
+             <param name="sender">   Source of the event. </param>
+             <param name="e">        Event information. </param>
+        </member>
+        <member name="F:Assesment3.Form1.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:Assesment3.Form1.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:Assesment3.Form1.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="T:Assesment3.Node">
+             <summary>   A node. </summary>
+            
+             <remarks>   Pureza, 9/16/2018. </remarks>
+        </member>
+        <member name="F:Assesment3.Node.myValue">
+            <summary>   my value. </summary>
+        </member>
+        <member name="F:Assesment3.Node.previous">
+             <summary>   Gets the next. </summary>
+            
+             <value> The next. </value>
+        </member>
+        <member name="F:Assesment3.Node.next">
+             <summary>   Gets the next. </summary>
+            
+             <value> The next. </value>
+        </member>
+        <member name="M:Assesment3.Node.#ctor(System.Int32)">
+             <summary>   Constructor. </summary>
+            
+             <remarks>   Pureza, 9/16/2018. </remarks>
+            
+             <param name="aValue">   . </param>
+        </member>
+        <member name="M:Assesment3.Node.getValue">
+             <summary>   Gets the value. </summary>
+            
+             <remarks>   Pureza, 9/16/2018. </remarks>
+            
+             <returns>   The value. </returns>
+        </member>
+        <member name="M:Assesment3.Node.setMyValue(System.Int32)">
+             <summary>   sets the answer value. </summary>
+            
+             <remarks>   Pureza, 9/16/2018. </remarks>
+            
+             <param name="aValue">   . </param>
+        </member>
+        <member name="M:Assesment3.Node.setNext(Assesment3.Node)">
+             <summary>   Sets a next. </summary>
+            
+             <remarks>   Pureza, 9/16/2018. </remarks>
+            
+             <param name="aNode">    The node. </param>
+        </member>
+        <member name="M:Assesment3.Node.getNext">
+             <summary>   Gets the next item. </summary>
+            
+             <remarks>   Pureza, 9/16/2018. </remarks>
+            
+             <returns>   The next. </returns>
+        </member>
+        <member name="M:Assesment3.Node.setPrevious(Assesment3.Node)">
+             <summary>   Sets the previous. </summary>
+            
+             <remarks>   Pureza, 9/16/2018. </remarks>
+            
+             <param name="aNode">    The node. </param>
+        </member>
+        <member name="M:Assesment3.Node.getPrevious">
+             <summary>   Gets the previous item. </summary>
+            
+             <remarks>   Pureza, 9/16/2018. </remarks>
+            
+             <returns>   The previous. </returns>
+        </member>
+        <member name="M:Assesment3.Node.tostring">
+             <summary>   Gets the tostring. </summary>
+            
+             <remarks>   Pureza, 9/16/2018. </remarks>
+            
+             <returns>   A string. </returns>
+        </member>
+        <member name="T:Assesment3.NodeList">
+             <summary>   List of nodes. </summary>
+            
+             <remarks>   Pureza, 9/16/2018. </remarks>
+        </member>
+        <member name="F:Assesment3.NodeList.CurrentNode">
+            <summary>   The tail node. </summary>
+        </member>
+        <member name="F:Assesment3.NodeList.HeadNode">
+            <summary>   The tail node. </summary>
+        </member>
+        <member name="F:Assesment3.NodeList.TailNode">
+            <summary>   The tail node. </summary>
+        </member>
+        <member name="F:Assesment3.NodeList.count">
+            <summary>   Number of. </summary>
+        </member>
+        <member name="M:Assesment3.NodeList.#ctor">
+             <summary>   Default constructor. </summary>
+            
+             <remarks>   Pureza, 9/16/2018. </remarks>
+        </member>
+        <member name="M:Assesment3.NodeList.#ctor(Assesment3.Node)">
+             <summary>   Constructor. </summary>
+            
+             <remarks>   Pureza, 9/16/2018. </remarks>
+            
+             <param name="aNode">    The node. </param>
+        </member>
+        <member name="M:Assesment3.NodeList.getCurrentNode">
+             <summary>   Gets current node. </summary>
+            
+             <remarks>   Pureza, 9/16/2018. </remarks>
+            
+             <returns>   The current node. </returns>
+        </member>
+        <member name="M:Assesment3.NodeList.getHeadNode">
+             <summary>   Gets head node. </summary>
+            
+             <remarks>   Pureza, 9/16/2018. </remarks>
+            
+             <returns>   The head node. </returns>
+        </member>
+        <member name="M:Assesment3.NodeList.getTailNode">
+             <summary>   Gets tail node. </summary>
+            
+             <remarks>   Pureza, 9/16/2018. </remarks>
+            
+             <returns>   The tail node. </returns>
+        </member>
+        <member name="M:Assesment3.NodeList.setCurrentNode(Assesment3.Node)">
+             <summary>   Sets current node. </summary>
+            
+             <remarks>   Pureza, 9/16/2018. </remarks>
+            
+             <param name="aNode">    The node. </param>
+        </member>
+        <member name="M:Assesment3.NodeList.setHeadNode(Assesment3.Node)">
+             <summary>   Sets head node. </summary>
+            
+             <remarks>   Pureza, 9/16/2018. </remarks>
+            
+             <param name="aNode">    The node. </param>
+        </member>
+        <member name="M:Assesment3.NodeList.setTailNode(Assesment3.Node)">
+             <summary>   Sets tail node. </summary>
+            
+             <remarks>   Pureza, 9/16/2018. </remarks>
+            
+             <param name="aNode">    The node. </param>
+        </member>
+        <member name="M:Assesment3.NodeList.addAtFrontOfNodeList(Assesment3.Node)">
+             <summary>   Adds at front of node list. </summary>
+            
+             <remarks>   Pureza, 9/16/2018. </remarks>
+            
+             <param name="aNode">    The node. </param>
+        </member>
+        <member name="M:Assesment3.NodeList.SortList">
+             <summary>   Sort list. </summary>
+            
+             <remarks>   Pureza, 9/16/2018. </remarks>
+        </member>
+        <member name="M:Assesment3.NodeList.binarySearch(System.Int32)">
+             <summary>   Binary search. </summary>
+            
+             <remarks>   Pureza, 9/16/2018. </remarks>
+            
+             <param name="searchValue">  The search value. </param>
+            
+             <returns>   An int. </returns>
+        </member>
+        <member name="M:Assesment3.NodeList.printLinkList(Assesment3.NodeList)">
+             <summary>   Print link list. </summary>
+            
+             <remarks>   Pureza, 9/16/2018. </remarks>
+            
+             <param name="aNode">    The node. </param>
+            
+             <returns>   A string. </returns>
+        </member>
+        <member name="M:Assesment3.NodeList.linkListTable(Assesment3.NodeList)">
+             <summary>   Links a list table. </summary>
+            
+             <remarks>   Pureza, 9/16/2018. </remarks>
+            
+             <param name="aNode">    The node. </param>
+            
+             <returns>   A Hashtable. </returns>
+        </member>
+        <member name="M:Assesment3.Program.Main">
+            <summary>
+            The main entry point for the application.
+            </summary>
+        </member>
+        <member name="T:Assesment3.Question">
+             <summary>   A question. </summary>
+            
+             <remarks>   Pureza, 9/16/2018. </remarks>
+        </member>
+        <member name="F:Assesment3.Question.firstNumber">
+            <summary>   The first number. </summary>
+        </member>
+        <member name="F:Assesment3.Question.secondNumber">
+            <summary>   The second number. </summary>
+        </member>
+        <member name="F:Assesment3.Question.Symbol">
+            <summary>   The symbol. </summary>
+        </member>
+        <member name="F:Assesment3.Question.answer">
+            <summary>   The answer. </summary>
+        </member>
+        <member name="M:Assesment3.Question.#ctor(System.Int32,System.Int32,System.String,System.Int32)">
+             <summary>   Constructor. </summary>
+            
+             <remarks>   Pureza, 9/16/2018. </remarks>
+            
+             <param name="firstNum">     The first number. </param>
+             <param name="secondNum">    The second number. </param>
+             <param name="symbol">       The symbol. </param>
+             <param name="result">       The result. </param>
+        </member>
+        <member name="T:Assesment3.Properties.Resources">
+            <summary>
+              A strongly-typed resource class, for looking up localized strings, etc.
+            </summary>
+        </member>
+        <member name="P:Assesment3.Properties.Resources.ResourceManager">
+            <summary>
+              Returns the cached ResourceManager instance used by this class.
+            </summary>
+        </member>
+        <member name="P:Assesment3.Properties.Resources.Culture">
+            <summary>
+              Overrides the current thread's CurrentUICulture property for all
+              resource lookups using this strongly typed resource class.
+            </summary>
+        </member>
+    </members>
+</doc>
